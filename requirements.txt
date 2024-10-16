@@ -1,0 +1,7 @@
+PyQt5==5.15.4
+PyAudio==0.2.11
+vosk==0.3.32
+openai==0.11.0
+PyAutoGUI==0.9.53
+pillow==9.2.0
+black==24.10.0
