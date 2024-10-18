@@ -12,14 +12,16 @@ class StateManager(QObject):
                     "index": None,
                     "name": None,
                 },
-                "audio_level": 0.0,
             },
             "desktop_audio": {
-                "audio_level": 0.0,
+                "selected_desktop_audio": {
+                    "index": None,
+                    "name": None,
+                },
             },
             "text_output": {
-                "user": [{"date": "2024-10-15", "text": "Test User Text"}],
-                "desktop": [{"date": "2024-10-16", "text": "Test Desktop Text"}],
+                "user": [],
+                "interviewer": [],
                 "open_ai": [{"date": "2024-10-17", "text": "Test Open AI Text"}],
             },
         }
